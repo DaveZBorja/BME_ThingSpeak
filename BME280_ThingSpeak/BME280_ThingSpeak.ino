@@ -5,8 +5,8 @@
 #include <BME280I2C.h>
 #include <Wire.h>
 
-char ssid[] = "MGT";        // your network SSID (name) 
-char pass[] = "Ict/2022";    // your network password
+char ssid[] = "";        // your network SSID (name) 
+char pass[] = "";    // your network password
 int keyIndex = 0;            // your network key Index number (needed only for WEP)
 WiFiClient  client;
 BME280I2C bme;
